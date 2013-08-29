@@ -20,7 +20,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-rvm'
 Bundle "scrooloose/syntastic"
 
-" non github repos
+" resource repos
 Bundle "git://github.com/timcharper/textile.vim.git"
 Bundle "git://github.com/tpope/vim-markdown.git"
 Bundle "git://github.com/jinfield/vim-nginx.git"
