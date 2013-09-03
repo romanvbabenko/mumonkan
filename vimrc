@@ -42,8 +42,8 @@ if has("multi_byte")
     let &termencoding = &encoding
   endif
   set encoding=utf-8
-  setglobal fileencoding=utf-8 bomb
-  set fileencodings=ucs-bom,utf-8,latin1
+  setglobal fileencoding=utf-8
+  set fileencodings=utf-8
 endif
 
 set tabstop=2
