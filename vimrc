@@ -19,6 +19,7 @@ Bundle 'romanvbabenko/snipmate.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-rvm'
 Bundle "scrooloose/syntastic"
+Bundle "danchoi/ruby_bashrockets.vim"
 
 " resource repos
 Bundle "git://github.com/timcharper/textile.vim.git"
