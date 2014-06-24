@@ -14,6 +14,19 @@ another way
     :%s/\(\w*\): \([':]\)/:\1 => \2/g # Bashrockets => Hashrockets
     %s/:\([^=,'"]*\) =>/\1:/g # Hashrockets => Bashrockets
 
+## Local rc files
+
+You can configure any Vim settings by the local .vimrc.local file
+
+e.g. *.ejs systax highlighting
+
+    cd /project/dir/path
+    vi .vimrc.local
+
+and type
+
+    au BufNewFile,BufRead *.ejs set filetype=html
+
 ## Requirements
 
 * Vim 7.0 or later
