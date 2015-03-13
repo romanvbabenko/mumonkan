@@ -27,7 +27,8 @@ Bundle "git://github.com/tpope/vim-markdown.git"
 Bundle "git://github.com/jinfield/vim-nginx.git"
 Bundle "git://github.com/tpope/vim-haml.git"
 Bundle "git://github.com/slim-template/vim-slim.git"
-Bundle "git://github.com/leshill/vim-json.git"
+Bundle "git@github.com:elzr/vim-json.git"
+Bundle "sudar/vim-arduino-syntax"
 Bundle "git://github.com/tmatilai/vim-monit.git"
 Bundle "git://github.com/t9md/vim-chef.git"
 Bundle "romanvbabenko/vim-asciidoc"
@@ -67,6 +68,8 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
+
+set paste
 
 "Autocomplete mode
 set wildmenu
