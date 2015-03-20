@@ -138,6 +138,9 @@ nnoremap <c-l> :bp <cr>
 let mapleader = "\\"
 map <leader>l :bp<esc>
 
+xnoremap <Tab> >gv
+xnoremap <S-Tab> <gv
+
 "Colorscheme hotfix
 
 hi Pmenu      ctermfg=lightgray   ctermbg=darkgray    cterm=NONE

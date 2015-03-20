@@ -27,6 +27,11 @@ and type
 
     au BufNewFile,BufRead *.ejs set filetype=html
 
+## Indention visualy selected block
+
+* Tab - indent right
+* Shift+Tab - indent left
+
 ## Requirements
 
 * Vim 7.0 or later
