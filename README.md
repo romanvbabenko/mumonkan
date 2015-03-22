@@ -32,6 +32,10 @@ and type
 * Tab - indent right
 * Shift+Tab - indent left
 
+## Comments
+
+* gcc - comments current line or block
+
 ## Requirements
 
 * Vim 7.0 or later
