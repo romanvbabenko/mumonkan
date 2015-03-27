@@ -20,6 +20,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-rvm'
 Bundle "scrooloose/syntastic"
 Bundle "danchoi/ruby_bashrockets.vim"
+Bundle "ConradIrwin/vim-bracketed-paste"
 
 " resource repos
 Bundle "git://github.com/timcharper/textile.vim.git"
@@ -69,7 +70,7 @@ set incsearch
 set ignorecase
 set smartcase
 
-set paste
+" set paste
 
 "Autocomplete mode
 set wildmenu
