@@ -18,23 +18,25 @@ Bundle 'tComment'
 Bundle 'romanvbabenko/snipmate.vim'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-rvm'
-Bundle "scrooloose/syntastic"
-Bundle "danchoi/ruby_bashrockets.vim"
-Bundle "ConradIrwin/vim-bracketed-paste"
+Bundle 'scrooloose/syntastic'
+Bundle 'danchoi/ruby_bashrockets.vim'
+Bundle 'ConradIrwin/vim-bracketed-paste'
+Bundle 'tpope/vim-surround'
+Bundle 'tpope/vim-repeat'
 
 " resource repos
-Bundle "git://github.com/timcharper/textile.vim.git"
-Bundle "git://github.com/tpope/vim-markdown.git"
-Bundle "git://github.com/jinfield/vim-nginx.git"
-Bundle "git://github.com/tpope/vim-haml.git"
-Bundle "git://github.com/slim-template/vim-slim.git"
-Bundle "git@github.com:elzr/vim-json.git"
-Bundle "sudar/vim-arduino-syntax"
-Bundle "git://github.com/tmatilai/vim-monit.git"
-Bundle "git://github.com/t9md/vim-chef.git"
-Bundle "romanvbabenko/vim-asciidoc"
+Bundle 'git://github.com/timcharper/textile.vim.git'
+Bundle 'git://github.com/tpope/vim-markdown.git'
+Bundle 'git://github.com/jinfield/vim-nginx.git'
+Bundle 'git://github.com/tpope/vim-haml.git'
+Bundle 'git://github.com/slim-template/vim-slim.git'
+Bundle 'git@github.com:elzr/vim-json.git'
+Bundle 'sudar/vim-arduino-syntax'
+Bundle 'git://github.com/tmatilai/vim-monit.git'
+Bundle 'git://github.com/t9md/vim-chef.git'
+Bundle 'romanvbabenko/vim-asciidoc'
 
-Bundle "wgibbs/vim-irblack"
+Bundle 'wgibbs/vim-irblack'
 
 filetype plugin indent on     " required!
 syntax enable
