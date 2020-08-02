@@ -1,3 +1,4 @@
+set verbose=0
 set nocompatible
 filetype off
 
@@ -111,8 +112,11 @@ if has("statusline") && !&cp
 
   " Add rvm
   if exists('$rvm_path')
-    set statusline+=%{rvm#statusline()}
+   if exists('*rvm#statusline')
+     set statusline+=%{rvm#statusline()}
+   end
   endif
+  "
   " Add fugitive
   set statusline+=%{fugitive#statusline()}
 
